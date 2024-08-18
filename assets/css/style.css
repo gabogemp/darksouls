@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-title: "Tinos", serif;
+  --font-p: "Kanit", sans-serif;
+  --color-title-font: rgb(199, 54, 89);
+  --color-p-font: rgb(238, 238, 238);
+  --color-bg: rgb(21, 21, 21);
+}
+
+div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 10px;
+  width: 45svh;  
+  filter: drop-shadow(2px 2px 4px hwb(60 11% 80% / 0.5));
+}
+
+body {
+  padding: 10px 80px;
+  margin: 10px;
+  background-color: var(--color-bg);
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-title-font);
+  font-family: var(--font-title);
+  text-shadow: 2px 2px 4px #160202;
+}
+
+p {
+  padding: 0px 20px;
+  font-family: var(--font-p);
+  color: var(--color-p-font);
+}
