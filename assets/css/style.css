@@ -7,6 +7,11 @@
   --color-title-font: #f4143f;
   --color-p-font: #edb217;
   --color-bg: #fcf5e4;
+  
+}
+
+* {
+  cursor: url("../img/cursorloconew.png"), auto;
 }
 
 div {
@@ -17,7 +22,8 @@ div {
 }
 
 body {
-  cursor: url("../img/cursor.png"), auto;
+  /* cursor: url("../img/cursorguante.png"), auto; */
+  
   padding: 0px 80px;
   margin: 0;
   background: url("../img/darksoulsgif.gif") no-repeat center/cover;
